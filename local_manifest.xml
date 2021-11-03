@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+        <remote name="device"
+                fetch="https://github.com/lightwars" />
+        <project path="device/zte/msm8939-common" name="android_device_zte_msm8939-common" remote="device" revision="lineage-16.0" clone-depth="1" />
+        <project path="device/zte/p839f30" name="android_device_zte_p839f30" remote="device" revision="lineage-16.0" clone-depth="1" />
+        
+        <remote name="vendor"
+                fetch="https://github.com/lightwars" />
+        <project path="vendor/zte" name="android_vendor_zte" remote="vendor" revision="lineage-16.0" clone-depth="1" />
+
+        <remote name="kernel"
+                fetch="https://github.com/lightwars" />
+        <project path="kernel/zte/msm8939" name="android_kernel_zte_msm8939" remote="kernel" revision="lineage-16.0" clone-depth="1" />
+
+        <remote name="lineageos"
+                fetch="https://github.com/LineageOS" />
+        <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="lineageos" revision="lineage-16.0" clone-depth="1" />
+        
+        <remote name="gcc"
+                fetch="https://android.googlesource.com/platform/prebuilts/gcc/linux-x86/arm" />
+        <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="arm-eabi-4.8" remote="gcc" revision="refs/tags/android-7.1.2_r29" clone-depth="1" />
+        
+</manifest>
